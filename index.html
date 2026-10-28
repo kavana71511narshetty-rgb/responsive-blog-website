@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read articles about technology, web development and programming.">
+    <title>Tech Blog</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="bg-dark text-white text-center p-4">
+        <h1>Tech Blog</h1>
+        <p>Explore technology, coding and web development</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Tech Blog</a>
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarMenu"
+                    aria-controls="navbarMenu"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#articles">Articles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5" id="home">
+        <section id="articles">
+            <h2 class="mb-4">Latest Articles</h2>
+
+            <div class="row g-4">
+                <article class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://placehold.co/600x350?text=HTML+and+CSS"
+                             class="card-img-top"
+                             alt="HTML and CSS article illustration">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Learn HTML and CSS</h3>
+                            <p class="card-text">Discover the fundamentals of creating attractive web pages.</p>
+                            <a href="#about" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://placehold.co/600x350?text=JavaScript"
+                             class="card-img-top"
+                             alt="JavaScript article illustration">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Getting Started with JavaScript</h3>
+                            <p class="card-text">Learn how JavaScript adds interactivity to websites.</p>
+                            <a href="#about" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://placehold.co/600x350?text=Bootstrap"
+                             class="card-img-top"
+                             alt="Bootstrap article illustration">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Responsive Design with Bootstrap</h3>
+                            <p class="card-text">Build layouts that adapt to mobile, tablet and desktop screens.</p>
+                            <a href="#about" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="mt-5">
+            <h2>About This Blog</h2>
+            <p>This blog shares useful information about programming, web technologies and responsive design.</p>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p class="mb-0">&copy; 2026 Tech Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
