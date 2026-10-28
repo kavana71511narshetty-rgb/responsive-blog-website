@@ -1,0 +1,111 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #212529, #343a40);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+/* Navigation */
+.navbar .nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #ffd166;
+}
+
+/* Article cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* About section */
+#about {
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+}
+
+/* Tablet screens */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 0.95rem;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 576px) {
+    header {
+        padding: 20px 10px !important;
+    }
+
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    header p {
+        font-size: 0.85rem;
+    }
+
+    main.container {
+        margin-top: 25px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .card-img-top {
+        height: 160px;
+    }
+
+    #about {
+        padding: 18px;
+    }
+}
